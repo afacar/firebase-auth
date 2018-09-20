@@ -14,7 +14,7 @@ class SignUpForm extends Component {
 
     // Another syntatic sugar from ES7
     // instead of binding context this.handleSubmit.bind(this)
-    // we write air function as follows 
+    // we write arrow function as follows 
 /*     handleSubmit = () => {
         axios.post(`${ROOOT_URL}/createUser`, {
             phone: this.state.phone
